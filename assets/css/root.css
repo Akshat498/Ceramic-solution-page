@@ -28,6 +28,7 @@
     --fc-crisp-blue: #007EA7;
     --fc-prussian: #003459;
     --fc-dark-color: #010101;
+    --fc-light-black:#1B2228;
     --fc-sky-blue: #00A8E8;
     --fc-dark-sky: #007EA7;
 }
@@ -122,6 +123,10 @@
 
 .fc-sky-blue {
     color: var(--fc-sky-blue);
+}
+
+.fc-light-black{
+    color: var(--fc-light-black);
 }
 
 .bg-dark-sky {
