@@ -81,6 +81,10 @@
     background-color: var(--fc-light-white);
 }
 
+.bg-pink{
+    background-color: var(--fc-pink);
+}
+
 .fc-deep-blue {
     color: var(--fc-deep-blue);
 }
@@ -197,36 +201,18 @@
 
 @media (max-width:968px) {
     :root {
-        --fs-sm: 14px;
-        --fs-md: 18px;
-        --fs-lg: 20px;
-        --fs-xl: 24px;
-        --fs-2xl: 30px;
-        --fs-3xl: 38px;
-        --fs-4xl: 82px;
+       
     }
 }
 
 @media (max-width:768px) {
     :root {
-        --fs-sm: 14px;
-        --fs-md: 16px;
-        --fs-lg: 18px;
-        --fs-xl: 22px;
-        --fs-2xl: 26px;
-        --fs-3xl: 30px;
-        --fs-4xl: 76px;
+        --fs-4xl:54px;
     }
 }
 
 @media (max-width:568px) {
     :root {
-        --fs-sm: 14px;
-        --fs-md: 16px;
-        --fs-lg: 16px;
-        --fs-xl: 18px;
-        --fs-2xl: 22px;
-        --fs-3xl: 24px;
-        --fs-4xl: 68px;
+        --fs-4xl:44px;
     }
 }
