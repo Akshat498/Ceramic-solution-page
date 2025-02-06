@@ -72,11 +72,6 @@
     stroke: var(--fc-red);
 }
 
-.buton-3:hover {
-    background-color: var(--fc-red);
-    color: var(--fc-white);
-}
-
 .main-heading {
     max-width: 830px;
     padding-top: 72px;
@@ -92,6 +87,18 @@
     padding: 20px 32px 20px 32px;
     border: none;
     margin-top: 36px;
+}
+
+.buton-5{
+    border-radius: 56px;
+    padding: 20px 32px 20px 32px;
+    border: none;
+    margin-top: 36px;
+}
+
+.buton-5:hover{
+    background-color: #fff;
+    color: var(--fc-red);
 }
 
 .buton-4 {
@@ -119,11 +126,17 @@
 }
 
 .buton-2:hover,
-.input-buton:hover,
-.buton-4:hover {
+.input-buton:hover {
     background-color: var(--fc-pink);
     color: var(--fc-red);
     transition: all 200ms;
+}
+
+.buton-4:hover, .buton-3:hover{
+    background-color: #FF5555BF;
+    color: var(--fc-white);
+    box-shadow: -13.01px 13.01px 104.09px 0px #A1A1A11A;
+    border: none;
 }
 
 
